@@ -194,7 +194,27 @@ public class WheatherGetRequest {
                  post("http://10.1.72.25:8890/guardian/api/login");
 
                  System.out.println("Token: "+ respToken.jsonPath().get("token"));
+                 String token = respToken.jsonPath().get("token");
+
+
     }
-                //testando GIT
+
+    @Test
+    public String geraTokenConvenio() throws Exception {
+
+
+        String convenio = "36784";
+        String password = "wex1234";
+
+        Response resp = given().
+                        when().
+                        get("http://10.1.72.25:8888/wextravel/api/cartaovirtual/" + convenio + "/"+ password + "/getToken");
+        Assert.assertEquals(resp.getStatusCode(),200);
+
+        return resp.jsonPath().get("token").toString();
+    }
+
+
+
     }
 

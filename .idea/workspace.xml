@@ -34,11 +34,20 @@
       <file leaf-file-name="WheatherGetRequest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WheatherGetRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
+            <state relative-caret-position="275">
+              <caret line="216" selection-start-line="216" selection-end-line="216" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParametrosTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ParametrosTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -71,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/testng.xml" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ParametrosTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WheatherGetRequest.java" />
       </list>
     </option>
@@ -153,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.WheatherGetRequest.geraToken">
+  <component name="RunManager" selected="TestNG.WheatherGetRequest.geraTokenConvenio">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -219,29 +229,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="WheatherGetRequest.Test_12" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="treinamento_api" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WheatherGetRequest" />
-      <option name="METHOD_NAME" value="Test_12" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="WheatherGetRequest.geraCpf" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="treinamento_api" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -288,6 +275,29 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="WheatherGetRequest.geraTokenConvenio" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="treinamento_api" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WheatherGetRequest" />
+      <option name="METHOD_NAME" value="geraTokenConvenio" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -311,19 +321,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.WheatherGetRequest.Test_12" />
       <item itemvalue="TestNG.WheatherGetRequest.geraCpf" />
       <item itemvalue="TestNG.WheatherGetRequest.Test_06" />
       <item itemvalue="TestNG.WheatherGetRequest.Test_09" />
       <item itemvalue="TestNG.WheatherGetRequest.geraToken" />
+      <item itemvalue="TestNG.WheatherGetRequest.geraTokenConvenio" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WheatherGetRequest.geraTokenConvenio" />
         <item itemvalue="TestNG.WheatherGetRequest.geraToken" />
         <item itemvalue="TestNG.WheatherGetRequest.geraCpf" />
         <item itemvalue="TestNG.WheatherGetRequest.Test_09" />
         <item itemvalue="TestNG.WheatherGetRequest.Test_06" />
-        <item itemvalue="TestNG.WheatherGetRequest.Test_12" />
       </list>
     </recent_temporary>
   </component>
@@ -341,24 +351,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WheatherGetRequest_Test_12 - 2018.05.30 at 13h 59m 14s.xml">
-      <configuration name="WheatherGetRequest.Test_12" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WheatherGetRequest_geraCpf - 2018.05.30 at 14h 05m 59s.xml">
-      <configuration name="WheatherGetRequest.geraCpf" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WheatherGetRequest_geraCpf - 2018.05.30 at 14h 06m 36s.xml">
-      <configuration name="WheatherGetRequest.geraCpf" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WheatherGetRequest_Test_06 - 2018.05.30 at 14h 09m 32s.xml">
-      <configuration name="WheatherGetRequest.Test_06" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WheatherGetRequest_Test_09 - 2018.05.30 at 14h 09m 43s.xml">
-      <configuration name="WheatherGetRequest.Test_09" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WheatherGetRequest_geraToken - 2018.05.30 at 14h 39m 18s.xml">
-      <configuration name="WheatherGetRequest.geraToken" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="WheatherGetRequest_geraToken - 2018.05.30 at 14h 39m 37s.xml">
       <configuration name="WheatherGetRequest.geraToken" configurationId="TestNG" />
     </history-entry>
@@ -371,10 +363,27 @@
     <history-entry file="WheatherGetRequest_geraToken - 2018.05.30 at 14h 41m 12s.xml">
       <configuration name="WheatherGetRequest.geraToken" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="WheatherGetRequest_geraTokenConvenio - 2018.05.30 at 15h 23m 41s.xml">
+      <configuration name="WheatherGetRequest.geraTokenConvenio" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WheatherGetRequest_geraTokenConvenio - 2018.05.30 at 15h 26m 01s.xml">
+      <configuration name="WheatherGetRequest.geraTokenConvenio" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WheatherGetRequest_geraTokenConvenio - 2018.05.30 at 15h 27m 30s.xml">
+      <configuration name="WheatherGetRequest.geraTokenConvenio" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WheatherGetRequest_geraToken - 2018.05.30 at 15h 45m 23s.xml">
+      <configuration name="WheatherGetRequest.geraToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WheatherGetRequest_geraTokenConvenio - 2018.05.30 at 15h 49m 38s.xml">
+      <configuration name="WheatherGetRequest.geraTokenConvenio" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WheatherGetRequest_geraTokenConvenio - 2018.05.30 at 15h 49m 53s.xml">
+      <configuration name="WheatherGetRequest.geraTokenConvenio" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -384,12 +393,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19921875" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19921875" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -409,7 +418,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -429,10 +438,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ParametrosTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WheatherGetRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
+        <state relative-caret-position="275">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
